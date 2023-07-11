@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KoscheiTheDeathless {
 
-    private Ocean1 ocean;
-
+    private Ocean1 ocean = new Ocean1();
     public String getRulesByDeth() {
         return "На свете есть океан , " + ocean.toString();
     }
